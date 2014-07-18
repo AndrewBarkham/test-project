@@ -6,7 +6,11 @@ public class App
     public static void main( String[] args )
     {
         App obj = new App();
-        System.out.println("Concatenating 'Hello' and 'World' equals " + obj.concatenate("Hello", "World"));
+<<<<<<< HEAD
+        System.out.println("Concatenating 'Hi' and 'World' equals " + obj.concatenate("Hi", "World"));
+=======
+        System.out.println("Concatenating 'Hello' and 'Mate' equals " + obj.concatenate("Hello", "Mate"));
+>>>>>>> e0015054027ef758c0f78473326c0d59cfceb720
         System.out.println("Multiplying 4 by 10 equals " + obj.multiply(4, 10));
         System.out.println("Adding 2 to 3 equals " + obj.add(2, 3));
     }
