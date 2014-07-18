@@ -8,6 +8,7 @@ public class App
         App obj = new App();
         System.out.println("Concatenating 'Hello' and 'World' equals " + obj.concatenate("Hello", "World"));
         System.out.println("Multiplying 4 by 10 equals " + obj.multiply(4, 10));
+        System.out.println("Adding 2 to 3 equals " + obj.add(2, 3));
     }
 
     public String concatenate(String one, String two){
@@ -19,6 +20,12 @@ public class App
     public int multiply(int a, int b){
 
         return a * b;
+
+    }
+
+    public int add(int a, int b){
+
+        return a + b;
 
     }
 }
