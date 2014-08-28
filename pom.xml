@@ -24,4 +24,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>internal.release</id>
+            <name>Internal Releases</name>
+            <url>http://coriolis:8081/nexus/content/repositories/releases</url>
+            <uniqueVersion>false</uniqueVersion>
+        </repository>
+        <snapshotRepository>
+            <id>internal.snapshots</id>
+            <name>Internal Snapshots</name>
+            <url>http://coriolis:8081/nexus/content/repositories/snapshots</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+        <site>
+            <id>iopscience.website</id>
+            <name>IOPscience Project Site</name>
+            <url>${site-location}/ROOT</url>
+        </site>
+    </distributionManagement>
 </project>
